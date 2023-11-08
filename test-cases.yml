@@ -107,9 +107,10 @@
 
 - summary:  Возможность видеть написание кода друг у друга при соревновании 
   requirement:  Пользователь должен иметь возможность в процессе игры видеть код оппонента 
-  prerequisites:  Начать игру с оппонентом
+  prerequisites:  Начать игру с оппонентом при любых условиях
   test-data:  No data
   steps:
+      - Создать игру  
   expected-result:
        Сервис должен позволить видеть процесс написания коды у оппонента     
 
@@ -134,7 +135,7 @@
 
 - summary:  Возможность игры с ботом
   requirement:  Пользователь может выбрать игру с ботом
-  prerequisites:
+  prerequisites: Открыть начальную страницу сайта https://codebattle.hexlet.io
   test-data:  No data
   steps:
       - Нажать кнопку CREATE A GAME
@@ -146,7 +147,7 @@
 
 - summary:  Наличие нескольких уровней сложности игры - elementary, easy, medium, hard
   requirement:  Пользователь может выбрать сложность игры
-  prerequisites:
+  prerequisites:  Открыть начальную страницу сайта https://codebattle.hexlet.io
   test-data:  No data
   steps:
       - Нажать кнопку CREATE A GAME
@@ -156,7 +157,7 @@
 
 - summary:  Возможность выбора игры
   requirement:  Пользователь может выбрать желаемую игру из списка
-  prerequisites:
+  prerequisites:  Открыть начальную страницу сайта https://codebattle.hexlet.io
   test-data:  No data
   steps:
       - Нажать кнопку CREATE A GAME
@@ -169,7 +170,7 @@
 
 - summary:  Возможность случайного выбора игры
   requirement:  При затруднении выбора игры сервис поможет выбрать игру случайным образом
-  prerequisites:
+  prerequisites: Открыть начальную страницу сайта https://codebattle.hexlet.io
   test-data:  No data
   steps:
       - Нажать кнопку CREATE A GAME
